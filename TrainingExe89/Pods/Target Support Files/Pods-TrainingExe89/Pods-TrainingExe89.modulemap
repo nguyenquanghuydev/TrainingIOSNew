@@ -1,0 +1,6 @@
+framework module Pods_TrainingExe89 {
+  umbrella header "Pods-TrainingExe89-umbrella.h"
+
+  export *
+  module * { export * }
+}

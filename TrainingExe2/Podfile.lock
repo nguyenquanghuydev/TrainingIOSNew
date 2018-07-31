@@ -1,0 +1,16 @@
+PODS:
+  - RadioButton (1.0)
+
+DEPENDENCIES:
+  - RadioButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RadioButton
+
+SPEC CHECKSUMS:
+  RadioButton: 7ef053baf6ff0e7f9e777016c28e9ba4e330edba
+
+PODFILE CHECKSUM: b5b4b00edd3eb297289be4afe2fd5beb536c9fd8
+
+COCOAPODS: 1.5.3
