@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.3)
+  - iTunesSearchAPI (1.0)
+  - Kingfisher (4.8.1)
+  - PagingKit (1.5.4)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - iTunesSearchAPI
+  - Kingfisher (~> 4.0)
+  - PagingKit
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - iTunesSearchAPI
+    - Kingfisher
+    - PagingKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  iTunesSearchAPI: f0ef86fcc9309a91562f70e5d6003c932efb4f68
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  PagingKit: e2cc3e889a39948621a3d1d9d68961d398794cfe
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 9fad4c5431cdd50a7cddc25820ef5d76ffba614f
+
+COCOAPODS: 1.5.3

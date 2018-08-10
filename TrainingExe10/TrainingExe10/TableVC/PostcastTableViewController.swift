@@ -7,19 +7,10 @@
 //
 
 import UIKit
-import XLPagerTabStrip
-class PostcastTableViewController: UITableViewController,IndicatorInfoProvider {
+
+class PostcastTableViewController: UITableViewController {
     
-    let cellIdentifier = "PostcastCell"
-    var itemInfo = IndicatorInfo(title: "View")
-    var blackTheme = false
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return itemInfo //
-    }
-    init(style: UITableViewStyle, itemInfo: IndicatorInfo) {
-        self.itemInfo = itemInfo
-        super.init(style: style)
-    }
+  
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -28,14 +19,6 @@ class PostcastTableViewController: UITableViewController,IndicatorInfoProvider {
     override func viewDidLoad() {
        
         super.viewDidLoad()
-         tableView.reloadData()
-        tableView.register(UINib(nibName: "PostcastcCell", bundle: Bundle.main), forCellReuseIdentifier: cellIdentifier)
-        tableView.estimatedRowHeight = 60.0
-        tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.allowsSelection = false
-        if blackTheme {
-            tableView.backgroundColor = UIColor(red: 15/255.0, green: 16/255.0, blue: 16/255.0, alpha: 1.0)
-        }
     
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

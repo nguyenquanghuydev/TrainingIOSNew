@@ -7,26 +7,17 @@
 //
 
 import UIKit
-import XLPagerTabStrip
-class MusicVideoTableViewController: UITableViewController, IndicatorInfoProvider {
+
+class MusicVideoTableViewController: UITableViewController {
     
-    let cellIdentifier = "MusicVideoCell"
-    var itemInfo: IndicatorInfo = "View"
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return itemInfo
-    }
-    init(itemInfo: IndicatorInfo) {
-        self.itemInfo = itemInfo
-        super.init(nibName: nil, bundle: nil)
-    }
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "MusicVideoCell", bundle: Bundle.main), forCellReuseIdentifier: cellIdentifier)
+    
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

@@ -6,9 +6,12 @@ target 'TrainingExe10' do
   use_frameworks!
 
   # Pods for TrainingExe10
-pod 'XLPagerTabStrip', '~> 8.0'
+
 	pod "iTunesSearchAPI"
-pod 'SwiftyJSON', '~> 4.0'
-pod 'Alamofire', '~> 4.7'
-pod 'Kingfisher', '~> 4.0'
+	pod 'SwiftyJSON', '~> 4.0'
+	pod 'Alamofire', '~> 4.7'
+	pod 'Kingfisher', '~> 4.0'
+ 	
+
+
 end
