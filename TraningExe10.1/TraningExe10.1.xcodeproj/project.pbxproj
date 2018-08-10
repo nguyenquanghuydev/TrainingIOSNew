@@ -29,6 +29,7 @@
 		B2F10AD0211D7369003F3926 /* EbookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F10ACF211D7369003F3926 /* EbookTableViewCell.swift */; };
 		B2F10AD2211D7377003F3926 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F10AD1211D7377003F3926 /* MovieTableViewCell.swift */; };
 		B2F10AD4211D7388003F3926 /* AudioBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F10AD3211D7388003F3926 /* AudioBookTableViewCell.swift */; };
+		B2F10AD6211D8030003F3926 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F10AD5211D8030003F3926 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		B2F10ACF211D7369003F3926 /* EbookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbookTableViewCell.swift; sourceTree = "<group>"; };
 		B2F10AD1211D7377003F3926 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		B2F10AD3211D7388003F3926 /* AudioBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBookTableViewCell.swift; sourceTree = "<group>"; };
+		B2F10AD5211D8030003F3926 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FCA93A55B61533C6F441ED9F /* Pods-TraningExe10.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraningExe10.1.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraningExe10.1/Pods-TraningExe10.1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				B2F10AC9211D7320003F3926 /* AudioBookViewController.swift */,
 				B2F10ACB211D7333003F3926 /* EbookViewController.swift */,
 				B2F10ACD211D734A003F3926 /* MovieViewController.swift */,
+				B2F10AD5211D8030003F3926 /* DetailViewController.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				B22316A0211310AD00460802 /* TraningExe10_1.xcdatamodeld in Sources */,
 				B291756C211AE2FD000BE935 /* ContentTableViewController.swift in Sources */,
 				B2277F41211464FB00894AF0 /* MenuCell.swift in Sources */,
+				B2F10AD6211D8030003F3926 /* DetailViewController.swift in Sources */,
 				B219A800211C44EA00DB619E /* PostcastTableViewCell.swift in Sources */,
 				B291756A211AE2E9000BE935 /* ContentTableViewCell.swift in Sources */,
 				B2F10ACA211D7320003F3926 /* AudioBookViewController.swift in Sources */,

@@ -76,6 +76,10 @@ class ContentTableViewController: UIViewController, UITableViewDelegate, UITable
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
+        let obj = listSong[indexPath.row]
+        print(obj)
+        let s = DetailViewController(coder: <#String#>)
+        s.config(artistString: obj.artistName, trackString: obj.trackName, thumbnailName: obj.artworkUrl100)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         print(segue.identifier)
